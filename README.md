@@ -31,15 +31,16 @@ Version S-2021.09
 
 # Truth table and Output Expressions
 <b>• Truth Table</b></br>
-<b>A    B   Cin   Sum   Cout</b></br>
-0   0   0   0   0
-0   0   1   1   0
-0   1   0   1   0
-0   1   1   0   1
-1   0   0   1   0
-1   0   1   0   1
-1   1   0   0   1
-1   1   1   1   1
+|A | B |Cin|Sum|Cout|
+
+|0   0   0   0   0|
+|0   0   1   1   0|
+|0   1   0   1   0|
+|0   1   1   0   1|
+|1   0   0   1   0|
+|1   0   1   0   1|
+|1   1   0   0   1|
+|1   1   1   1   1|
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
