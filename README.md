@@ -3,12 +3,12 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 
 # Table of Contents
 * [Introduction](#Introduction)
-* [Tool Used](#Tool Used)
-* [Circuit Details](#Circuit Details)
+* [Tool Used](#Tool-Used)
+* [Circuit Details](#Circuit-Details)
 * [Schematic](#Schematic)
-* [Truth Table and Output Waveform](#Truth Table and Output Waveform)
-* [Generetaed Netlist](#Generetaed Netlist)
-* [Refrence](#Refrence)
+* [Truth Table and Output Waveform](#Truth-Table-and-Output-Waveform)
+* [Generetaed Netlist](#Generetaed-Netlist)
+* [Reference](#Reference)
 * [Acknoledgement](#Acknoledgement)
 * [Author](#Author)
 
@@ -20,7 +20,7 @@ Addition is one of the fundamental arithmetic operations. Adder is the core elem
 # Schematic
 # Truth Table and Output Waveform
 # Generetaed Netlist
-# Refrence
+# Reference
 # Acknoledgement
 # Author
 
