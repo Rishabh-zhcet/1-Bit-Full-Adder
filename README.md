@@ -19,18 +19,27 @@ Addition is one of the fundamental arithmetic operations. Adder is the core elem
 Synopsys Custom Compiler
 Version S-2021.09
 
-<b>• Synopsys Custom Compiler:</b></br>
+<b>• Synopsys Custom Compiler</b></br>
 &emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 
-<b>• Synopsys Primewave:</b></br>
+<b>• Synopsys Primewave</b></br>
 &emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 
-<b>• Synopsys 28nm PDK:</b></br>
+<b>• Synopsys 28nm PDK</b></br>
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 
 # Truth table and Output Expressions
-
+<b>• Truth Table</b></br>
+<b>A    B   Cin   Sum   Cout</b></br>
+0   0   0   0   0
+0   0   1   1   0
+0   1   0   1   0
+0   1   1   0   1
+1   0   0   1   0
+1   0   1   0   1
+1   1   0   0   1
+1   1   1   1   1
 # Schematic
 # Output Waveform
 # Generetaed Netlist
