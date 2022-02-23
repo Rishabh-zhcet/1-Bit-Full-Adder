@@ -4,4 +4,5 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 # Table of Contents
 * Introduction
 * Working
-* 
+* ![image](https://user-images.githubusercontent.com/65393666/155360707-e162d63b-aa9e-492d-b548-1080b651e5ab.png)
+
