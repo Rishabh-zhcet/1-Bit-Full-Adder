@@ -4,7 +4,7 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 # Table of Contents
 * [Introduction](#Introduction)
 * [Tool Used](#Tool-Used)
-* [Truth table and Output Expressions](#Truth-table-and-Output-Expressions)
+* [Truth table ](#Truth-table)
 * [Schematic](#Schematic)
 * [Output Waveform](#Output-Waveform)
 * [Generetaed Netlist](#Generetaed-Netlist)
@@ -29,7 +29,7 @@ Version S-2021.09
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 
-# Truth table and Output Expressions
+# Truth table 
 <b>• Truth Table of 1-Bit Full Adder</b></br>
 
 |A | B |Cin|Sum|Cout|
@@ -43,11 +43,19 @@ Version S-2021.09
 |1 | 1 | 0 | 0 | 1 |
 |1 | 1 | 1 | 1 | 1 |
 
-<b>•Output Expression</b></br>
+# Methodology
+We know that a _Full adder_ can be designed using Two _Half Adder_ circuits. So first we have to consider an _Half Adder_ Circuit.
+
+<b>•Truth Table of Half Adder</b></br>
+
+
 The output expressions for the 1- bit half adder is given by,
 
 SUM=A ⊗ B........................  (1)
+
 Cout= AB .........................  (2)
+
+
 
 # Schematic
 
