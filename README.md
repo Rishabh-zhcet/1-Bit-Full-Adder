@@ -73,7 +73,6 @@ We know that a _Full adder_ can be designed using two _Half Adder_ circuits. So 
 <b>Table:2 Truth Table of 1-Bit Half Adder</b></br>
 </p>
 <b>•Output Expressions for the 1- Bit Half Adder</b></br>
-The output expressions for the 1- bit half adder is given by,
 
  <p align="center">
 Sum=A ⊗ B   ........................  (1)
@@ -82,6 +81,18 @@ Sum=A ⊗ B   ........................  (1)
 Carry= AB ............................ (2)
 </p>
 
+
+<b>•Circuit Diagram of the 1- Bit Half Adder</b></br>
+
+<p align="center" width="100%">
+  
+<img width="33%" src="https://user-images.githubusercontent.com/65393666/155495727-aaa770b7-1334-4017-b668-d111ae0caca0.png">
+
+</p>
+
+<p align="center">
+<b>Fig:1 Half Adder Circuit</b></br>
+</p>
 
 # Schematic
 
