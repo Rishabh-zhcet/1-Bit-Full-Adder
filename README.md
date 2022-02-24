@@ -44,7 +44,7 @@ Version S-2021.09
 |1 | 1 | 1 | 1 | 1 |
 
 <b>•Output Expression</b></br>
-The output expressions for the 1- bit half adder is given by,
+The output expressions for the 1- bit half adder is given by,\n
 SUM=A ⊗ B........................  (1)
 Cout= AB .........................  (2)
 
