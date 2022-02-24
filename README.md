@@ -93,7 +93,7 @@ Carry= A.B ............................ (2)
 
 <p align="center" width="100%">
   
-<img width="33%" src="https://user-images.githubusercontent.com/65393666/155495727-aaa770b7-1334-4017-b668-d111ae0caca0.png">
+<img width="50%" src="https://user-images.githubusercontent.com/65393666/155495727-aaa770b7-1334-4017-b668-d111ae0caca0.png">
 
 </p>
 
@@ -105,13 +105,14 @@ Carry= A.B ............................ (2)
 
 <p align="center" width="100%">
   
-<img width="33%" src="https://user-images.githubusercontent.com/65393666/155501100-bb537e09-cf9b-4424-a8f4-eb63d73d9eea.png">
+<img width="100%" src="https://user-images.githubusercontent.com/65393666/155501100-bb537e09-cf9b-4424-a8f4-eb63d73d9eea.png">
 
 </p>
 
 <p align="center">
 <b>Fig:2 Full Adder using two Half Adder Circuits</b></br>
 </p>
+
 # Schematic
 
 # Output Waveform
