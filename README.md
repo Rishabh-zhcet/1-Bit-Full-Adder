@@ -30,7 +30,8 @@ Version S-2021.09
 
 
 # Truth table and Output Expressions
-<b>• Truth Table</b></br>
+|<b>• Truth Table of 1-Bit Full Adder</b></br>|
+|:-----------------------:|
 |A | B |Cin|Sum|Cout|
 |:-|:-:|:-:|:-:|:--:|
 |0 | 0 | 0 | 0 | 0 |
@@ -42,6 +43,7 @@ Version S-2021.09
 |1 | 1 | 0 | 0 | 1 |
 |1 | 1 | 1 | 1 | 1 |
 # Schematic
+
 # Output Waveform
 # Generetaed Netlist
 # Reference
