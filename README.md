@@ -53,17 +53,18 @@ Version S-2021.09
 
 
 # Methodology
-We know that a _Full adder_ can be designed using Two _Half Adder_ circuits. So first we have to consider an _Half Adder_ Circuit.
+We know that a _Full adder_ can be designed using two _Half Adder_ circuits. So first we have to consider an _Half Adder_ Circuit.
 
 <b>•Truth Table of Half Adder</b></br>
 
 
 The output expressions for the 1- bit half adder is given by,
 
+ <p align="center">
 SUM=A ⊗ B........................  (1)
 
 Cout= AB .........................  (2)
-
+</p>
 
 
 # Schematic
