@@ -31,7 +31,7 @@ Version S-2021.09
 
 # Truth table and Output Expressions
 <b>• Truth Table of 1-Bit Full Adder</b></br>
-|:-----------------------:|
+
 |A | B |Cin|Sum|Cout|
 |:-|:-:|:-:|:-:|:--:|
 |0 | 0 | 0 | 0 | 0 |
