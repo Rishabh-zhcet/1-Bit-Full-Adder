@@ -30,6 +30,9 @@ Version S-2021.09
 
 
 # Truth table 
+<p align="center">
+    
+
 <b>• Truth Table of 1-Bit Full Adder</b></br>
 
 |A | B |Cin|Sum|Cout|
@@ -43,6 +46,7 @@ Version S-2021.09
 |1 | 1 | 0 | 0 | 1 |
 |1 | 1 | 1 | 1 | 1 |
 
+</p>
 # Methodology
 We know that a _Full adder_ can be designed using Two _Half Adder_ circuits. So first we have to consider an _Half Adder_ Circuit.
 
