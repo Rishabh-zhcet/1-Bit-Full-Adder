@@ -240,6 +240,16 @@ c5 sum gnd! c=1p
 
 
 # Reference
+
+[1] Rajan Kumar Jha, Rahul Prasad Rajak and Anu Samanta
+“Implementation of 1 bit CMOS Full Adder Design and Analysis
+Based on Propagation Delay,” in ICETC3-2017.
+https://ijoaemorg.files.wordpress.com/2017/04/icetc3-2017-110.pdf
+
+[2] Kavita Khare, Krishna Dayal Shukla,” Design A 1Bit Low Power Full
+Adder Using Cadence Tool,” in AIP Conference Proceedings 1324,
+373 (2010); https://aip.scitation.org/doi/pdf/10.1063/1.3526237
+
 # Acknoledgement
 
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
