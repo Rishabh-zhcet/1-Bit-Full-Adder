@@ -52,6 +52,13 @@ Version S-2021.09
 <b>Table:1 Truth Table of 1-Bit Full Adder</b></br>
 </p>
 
+# Output Expression
+<p align="center">
+Sum=A ⊗ B ⊗ Cin  ........................  (1)
+  </p>
+<p align="center">
+Cout= A.B + (A ⊗ B).Cin ............................ (2)
+</p>
 
 # Methodology
 We know that a _Full adder_ can be designed using two _Half Adder_ circuits. So first we have to consider an _Half Adder_ Circuit.
@@ -78,7 +85,7 @@ We know that a _Full adder_ can be designed using two _Half Adder_ circuits. So 
 Sum=A ⊗ B   ........................  (1)
   </p>
 <p align="center">
-Carry= AB ............................ (2)
+Carry= A.B ............................ (2)
 </p>
 
 
@@ -94,6 +101,17 @@ Carry= AB ............................ (2)
 <b>Fig:1 Half Adder Circuit</b></br>
 </p>
 
+<b>•Full Adder using Half Adder</b></br>
+
+<p align="center" width="100%">
+  
+<img width="33%" src="https://user-images.githubusercontent.com/65393666/155501100-bb537e09-cf9b-4424-a8f4-eb63d73d9eea.png">
+
+</p>
+
+<p align="center">
+<b>Fig:2 Full Adder using two Half Adder Circuits</b></br>
+</p>
 # Schematic
 
 # Output Waveform
