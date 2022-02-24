@@ -30,9 +30,6 @@ Version S-2021.09
 
 
 # Truth table 
-<p align="center">
-<b>• Truth Table of 1-Bit Full Adder</b></br>
-</p>
 
 <div align="center">
   
@@ -49,6 +46,10 @@ Version S-2021.09
   
 </div>
 <div>
+  
+  <p align="center">
+<b>Table:1 Truth Table of 1-Bit Full Adder</b></br>
+</p>
 
 
 # Methodology
