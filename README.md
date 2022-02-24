@@ -113,6 +113,18 @@ Carry= A.B ............................ (2)
 <b>Fig:2 Full Adder using two Half Adder Circuits</b></br>
 </p>
 
+As we know that the implementation of universal gates like **NAND** & **NOR** gates require less number of mosfets in comparision with **AND/OR** gates. Hence to reduce the design complexity, we can replace the **AND-AND-OR** logic of the carry with the **NAND-NAND-NAND** logic. The design can be modified as follows:
+
+<p align="center" width="100%">
+  
+<img width="100%" src="https://user-images.githubusercontent.com/65393666/155504379-6c1d957c-64bf-4c72-b28a-f4d97a920c2b.png">
+
+</p>
+
+<p align="center">
+<b>Fig:3 Modified Full Adder Circuit</b></br>
+</p>
+
 # Schematic
 
 # Output Waveform
