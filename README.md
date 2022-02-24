@@ -10,7 +10,7 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 * [Output Waveform](#Output-Waveform)
 * [Generetaed Netlist](#Generetaed-Netlist)
 * [Reference](#Reference)
-* [Acknoledgement](#Acknoledgement)
+* [Acknowledgement](#Acknoledgement)
 * [Author](#Author)
 
 # Introduction
@@ -250,7 +250,7 @@ https://ijoaemorg.files.wordpress.com/2017/04/icetc3-2017-110.pdf
 Adder Using Cadence Tool,” in AIP Conference Proceedings 1324,
 373 (2010); https://aip.scitation.org/doi/pdf/10.1063/1.3526237
 
-# Acknoledgement
+# Acknowledgement
 
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [Indian Institute Of Technology (IIT), Hyderabad](https://iith.ac.in/)
@@ -259,12 +259,6 @@ Adder Using Cadence Tool,” in AIP Conference Proceedings 1324,
 
 # Author
 
-[Rishabh Verma](https://github.com/Rishabh-zhcet)
-
-Bachelor of Technology
-
-Zakir Husain College of Engineering and Technology (ZHCET)
-
-Aligarh MUslim University(AMU)
+[Rishabh Verma](https://github.com/Rishabh-zhcet) Bachelor of Technology, Zakir Husain College of Engineering and Technology (ZHCET), Aligarh MUslim University(AMU)
 
 
