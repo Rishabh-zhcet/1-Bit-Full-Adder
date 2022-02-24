@@ -33,6 +33,7 @@ Version S-2021.09
 <p align="center">
 <b>• Truth Table of 1-Bit Full Adder</b></br>
 </p>
+
 <div align="center">
 |A | B |Cin|Sum|Cout|
 |:-|:-:|:-:|:-:|:--:|
