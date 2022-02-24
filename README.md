@@ -127,7 +127,12 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 
 # Schematic
 
+![Schematic](https://user-images.githubusercontent.com/65393666/155510454-e96140b9-5f59-4eb3-8a88-e929ac95ce81.png)
+
 # Output Waveform
+
+![Output Waveform](https://user-images.githubusercontent.com/65393666/155509859-42d1d695-8467-4640-ab19-993fb5950ab9.png)
+
 # Generetaed Netlist
 
 ```
