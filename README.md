@@ -129,6 +129,111 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 
 # Output Waveform
 # Generetaed Netlist
+
+```
+*  Generated for: PrimeSim
+*  Design library name: cp_lib
+*  Design cell name: 1_Bit_Full_Adder_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Thu Feb 24 10:29:51 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : cp_lib
+* Cell             : 1_Bit_Full_Adder
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt _1_bit_full_adder a b cin cout gnd_1 sum vdd vt_bulk_n_gnd!
++ vt_bulk_p_vdd!
+xm46 net152 net156 gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm44 cout net160 net152 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm43 net146 cin gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm42 net156 net145 net146 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm41 net140 b gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm40 net160 a net140 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm36 net125 net119 gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm35 net122 cin gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm34 net119 cin gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm33 net116 net101 gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm31 net110 b gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm57 net98 a gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm28 net101 b gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm58 net128 net145 gnd_1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm53 sum net128 net125 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm54 sum net145 net122 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm55 net145 net98 net116 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm56 net145 a net110 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm47 sum cin net134 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm48 sum net119 net131 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm50 net145 b net107 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm51 net145 net101 net104 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm26 cout net160 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm25 cout net156 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm24 net156 net145 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm23 net156 cin vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm22 net160 a vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm21 net160 b vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm11 net104 a vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm9 net98 a vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm12 net107 net98 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm17 net131 net145 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm16 net119 cin vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm15 net128 net145 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm10 net101 b vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm18 net134 net128 vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+.ends _1_bit_full_adder
+
+********************************************************************************
+* Library          : cp_lib
+* Cell             : 1_Bit_Full_Adder_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi19 a b cin cout gnd! sum net8 gnd! vdd! _1_bit_full_adder
+v1 net8 gnd! dc=1.8
+v4 cin gnd! dc=0 pulse ( 0 1.8 5u 20p 20p 5u 10u )
+v3 b gnd! dc=0 pulse ( 0 1.8 10u 20p 20p 10u 20u )
+v2 a gnd! dc=0 pulse ( 0 1.8 20u 20p 20p 20u 40u )
+c6 cout gnd! c=1p
+c5 sum gnd! c=1p
+
+
+
+
+
+
+
+
+.tran '1us' '40us' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a) v(b) v(C) v(cout) v(sum)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+```
+
+
 # Reference
 # Acknoledgement
 # Author
