@@ -243,4 +243,12 @@ c5 sum gnd! c=1p
 # Acknoledgement
 # Author
 
+[Rishabh Verma](https://github.com/Rishabh-zhcet)
+
+Bachelor of Technology
+
+Zakir Husain College of Engineering and Technology (ZHCET)
+
+Aligarh MUslim University(AMU)
+
 
