@@ -241,6 +241,12 @@ c5 sum gnd! c=1p
 
 # Reference
 # Acknoledgement
+
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+- [Indian Institute Of Technology (IIT), Hyderabad](https://iith.ac.in/)
+- [Synopsys](https://www.synopsys.com/)
+- [Mohammad Khalique Khan](https://github.com/Khalique13)
+
 # Author
 
 [Rishabh Verma](https://github.com/Rishabh-zhcet)
