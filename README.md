@@ -7,6 +7,7 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 * [Truth table ](#Truth-table)
 * [Methodology](#Methodology)
 * [Schematic](#Schematic)
+* [Testbench & Simulation](#Testbench-&-Simulation)
 * [Output Waveform](#Output-Waveform)
 * [Generetaed Netlist](#Generetaed-Netlist)
 * [Reference](#Reference)
@@ -163,9 +164,40 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 <b>Fig:8</b> Tansister Level Schematic of NAND Gate Circuit </br>
 </p>
 
+# Testbench & Simulation
+
+For designing the testbench for 1-Bit Full Adder we need following:</br>
+1. Three-pulsed signals for A,B and Cin( vpulse )
+2. DC power supply( vdc )
+3. Ground ( gnd )
+4. Two-Load Capacitors for taking outputs from Sum and Cout terminal.
+
+![Testbech](https://user-images.githubusercontent.com/65393666/155700855-176d8967-db42-4e0b-b12c-384f553672a6.png)
+
+<p align="center">
+<b>Fig:10</b> Testbench for 1-Bit Full Adder </br>
+</p>
+
+**Parameters for A,B and C**
+
+|Signal|DC Voltage|Volatge 1|Voltage 2|Delay Time|Rise Time|Fall Time|Pulse Width|Period|
+|:-----|:--------:|:-------:|:-------:|:--------:|:-------:|:-------:|:---------:|-----:|
+|A|0 V|0 V|1.8 V|20u s|20p s|20p s|20u s|40u s|
+|B|0 V|0 V|1.8 V|10u s|20p s|20p s|10u s|20u s|
+|C|0 V|0 V|1.8 V|5u s|20p s|20p s|5u s|10u s|
+
+**Parameters for Vdd and Load Capacitances**
+
+Vdd=1.8 V
+C= 1p F
+
 # Output Waveform
 
 ![Output Waveform](https://user-images.githubusercontent.com/65393666/155509859-42d1d695-8467-4640-ab19-993fb5950ab9.png)
+
+<p align="center">
+<b>Fig:9</b> Output wavform of 1-Bit Full Adder Circuit </br>
+</p>
 
 # Generetaed Netlist
 
