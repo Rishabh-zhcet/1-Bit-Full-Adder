@@ -176,7 +176,7 @@ For designing the testbench for 1-Bit Full Adder we need following:</br>
 ![Testbech](https://user-images.githubusercontent.com/65393666/155700855-176d8967-db42-4e0b-b12c-384f553672a6.png)
 
 <p align="center">
-<b>Fig:10</b> Testbench for 1-Bit Full Adder </br>
+<b>Fig:9</b> Testbench for 1-Bit Full Adder </br>
 </p>
 
 **Parameters for A,B and C**
@@ -200,7 +200,7 @@ The analysis is done for 40u s in the steps of 1u s.
 ![Output Waveform](https://user-images.githubusercontent.com/65393666/155509859-42d1d695-8467-4640-ab19-993fb5950ab9.png)
 
 <p align="center">
-<b>Fig:9</b> Output wavform of 1-Bit Full Adder Circuit </br>
+<b>Fig:10</b> Output wavform of 1-Bit Full Adder Circuit </br>
 </p>
 
 # Generetaed Netlist
@@ -310,7 +310,7 @@ c5 sum gnd! c=1p
 
 # Result
 
-As a result, the Output waveform shown in figure:9 can be verified from the truth table of Full Adder shown in Table:1.
+As a result, the Output waveform shown in figure:10 can be verified from the truth table of Full Adder shown in Table:1.
 
 # Reference
 
