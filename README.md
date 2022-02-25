@@ -1,5 +1,5 @@
 # Design-implementaion-of-a-1-Bit-Full-Adder-using-28-nm-CMOS-technology
-This repository presents the design and implementation of a 1-Bit Full Adder circuit using 28 CMOS technology. All the Simulations are done on Synopsis tool. For the representation of inputs and outputs, we have taken voltage range 0v to 1.8v. The truth table of the 1- Bit Full Adder is verified by the waveform obtained from the simulation. Full adder can be designed using two Half adders but this design is a little modified version with less no of MOSFETs. 
+This repository presents the design and implementation of a 1-Bit Full Adder circuit using 28 CMOS technology. Implementation and simulation are done using the Synopsis tool only. For the representation of inputs and outputs, we have taken the voltage range 0v to 1.8v. The truth table of the 1- Bit Full Adder is verified by the waveform obtained from the simulation. A full adder can be designed using two Half adders but this design is a little modified version with less no of MOSFETs. 
 
 # Table of Contents
 * [Introduction](#Introduction)
@@ -9,10 +9,10 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 * [Schematic](#Schematic)
 * [Testbench & Simulation](#Testbench-&-Simulation)
 * [Output Waveform](#Output-Waveform)
-* [Generetaed Netlist](#Generetaed-Netlist)
+* [Generated Netlist](#Generated-Netlist)
 * [Result](#Result)
 * [Reference](#Reference)
-* [Acknowledgement](#Acknoledgement)
+* [Acknowledgment](#Acknowledgment)
 * [Author](#Author)
 
 # Introduction
@@ -32,10 +32,10 @@ Version S-2021.09
 &emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 
 <b>• Synopsys Primewave</b></br>
-&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital, and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 
 <b>• Synopsys 28nm PDK</b></br>
-&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in the creation and simulation of the above-designed circuit.
 
 
 # Truth table 
@@ -138,7 +138,7 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 ![Schematic](https://user-images.githubusercontent.com/65393666/155510454-e96140b9-5f59-4eb3-8a88-e929ac95ce81.png)
 
 <p align="center">
-<b>Fig:5 Tansister Level Schematic of Full Adder Circuit</b></br>
+<b>Fig:5 Tansistor Level Schematic of Full Adder Circuit</b></br>
 </p>
 
 <b>• Schematic of two input Inverter</b></br>
@@ -146,7 +146,7 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 ![Inverter](https://user-images.githubusercontent.com/65393666/155697673-74e84793-4c9b-48db-8dee-bb02305fabf0.png)
 
 <p align="center">
-<b>Fig:6</b> Tansister Level Schematic of Inverter Circuit </br>
+<b>Fig:6</b> Tansistor Level Schematic of Inverter Circuit </br>
 </p>
 
 <b>• Schematic of two input XOR Gate</b></br>
@@ -154,7 +154,7 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 ![XOR Gate](https://user-images.githubusercontent.com/65393666/155697035-068d474c-25bc-4561-965c-66a0eaecdfa1.png)
 
 <p align="center">
-<b>Fig:7</b> Tansister Level Schematic of XOR Gate Circuit </br>
+<b>Fig:7</b> Tansistor Level Schematic of XOR Gate Circuit </br>
 </p>
 
 <b>• Schematic of two input NAND Gate</b></br>
@@ -162,7 +162,7 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 ![NAND Gate](https://user-images.githubusercontent.com/65393666/155698115-93ce9d2c-e691-46dc-9938-7469aed5ddfd.png)
 
 <p align="center">
-<b>Fig:8</b> Tansister Level Schematic of NAND Gate Circuit </br>
+<b>Fig:8</b> Tansistor Level Schematic of NAND Gate Circuit </br>
 </p>
 
 # Testbench & Simulation
@@ -187,6 +187,10 @@ For designing the testbench for 1-Bit Full Adder we need following:</br>
 |B|0 V|0 V|1.8 V|10u s|20p s|20p s|10u s|20u s|
 |C|0 V|0 V|1.8 V|5u s|20p s|20p s|5u s|10u s|
 
+<p align="center">
+<b>Table:3 Parameters for the input pulses A,B and C</b></br>
+</p>
+
 **Parameters for Vdd and Load Capacitances**
 
 Vdd=1.8 V
@@ -200,10 +204,10 @@ The analysis is done for 40u s in the steps of 1u s.
 ![Output Waveform](https://user-images.githubusercontent.com/65393666/155509859-42d1d695-8467-4640-ab19-993fb5950ab9.png)
 
 <p align="center">
-<b>Fig:10</b> Output wavform of 1-Bit Full Adder Circuit </br>
+<b>Fig:10</b> Output waveform of 1-Bit Full Adder Circuit </br>
 </p>
 
-# Generetaed Netlist
+# Generated Netlist
 
 ```
 *  Generated for: PrimeSim
@@ -323,7 +327,7 @@ https://ijoaemorg.files.wordpress.com/2017/04/icetc3-2017-110.pdf
 Adder Using Cadence Tool,” in AIP Conference Proceedings 1324,
 373 (2010); https://aip.scitation.org/doi/pdf/10.1063/1.3526237
 
-# Acknowledgement
+# Acknowledgment
 
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [Indian Institute Of Technology (IIT), Hyderabad](https://iith.ac.in/)
