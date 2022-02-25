@@ -20,6 +20,12 @@ Addition is one of the fundamental arithmetic operations. Adder is the core elem
 Synopsys Custom Compiler
 Version S-2021.09
 
+![image](https://user-images.githubusercontent.com/65393666/155695713-5413fce2-c232-4499-b734-6d966089627d.png)
+
+<p align="center">
+<b>Fig:1 Custom Compiler Homepage</b></br>
+</p>
+
 <b>• Synopsys Custom Compiler</b></br>
 &emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 
@@ -98,7 +104,7 @@ Carry= A.B ............................ (2)
 </p>
 
 <p align="center">
-<b>Fig:1 Half Adder Circuit</b></br>
+<b>Fig:2 Half Adder Circuit</b></br>
 </p>
 
 <b>•Full Adder using Half Adder</b></br>
@@ -110,7 +116,7 @@ Carry= A.B ............................ (2)
 </p>
 
 <p align="center">
-<b>Fig:2 Full Adder using two Half Adder Circuits</b></br>
+<b>Fig:3 Full Adder using two Half Adder Circuits</b></br>
 </p>
 
 As we know that the implementation of universal gates like **NAND** & **NOR** gates require less number of mosfets in comparision with **AND/OR** gates. Hence to reduce the design complexity, we can replace the **AND-AND-OR** logic of the carry with the **NAND-NAND-NAND** logic. The design can be modified as follows:
@@ -122,12 +128,40 @@ As we know that the implementation of universal gates like **NAND** & **NOR** ga
 </p>
 
 <p align="center">
-<b>Fig:3 Modified Full Adder Circuit</b></br>
+<b>Fig:4 Modified Full Adder Circuit</b></br>
 </p>
 
 # Schematic
 
 ![Schematic](https://user-images.githubusercontent.com/65393666/155510454-e96140b9-5f59-4eb3-8a88-e929ac95ce81.png)
+
+<p align="center">
+<b>Fig:5 Tansister Level Schematic of Full Adder Circuit</b></br>
+</p>
+
+<b>• Schematic of two input Inverter</b></br>
+
+![Inverter](https://user-images.githubusercontent.com/65393666/155697673-74e84793-4c9b-48db-8dee-bb02305fabf0.png)
+
+<p align="center">
+<b>Fig:6</b> Tansister Level Schematic of Inverter Circuit </br>
+</p>
+
+<b>• Schematic of two input XOR Gate</b></br>
+
+![XOR Gate](https://user-images.githubusercontent.com/65393666/155697035-068d474c-25bc-4561-965c-66a0eaecdfa1.png)
+
+<p align="center">
+<b>Fig:7</b> Tansister Level Schematic of XOR Gate Circuit </br>
+</p>
+
+<b>• Schematic of two input NAND Gate</b></br>
+
+![NAND Gate](https://user-images.githubusercontent.com/65393666/155698115-93ce9d2c-e691-46dc-9938-7469aed5ddfd.png)
+
+<p align="center">
+<b>Fig:8</b> Tansister Level Schematic of NAND Gate Circuit </br>
+</p>
 
 # Output Waveform
 
