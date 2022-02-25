@@ -336,6 +336,6 @@ Adder Using Cadence Tool,” in AIP Conference Proceedings 1324,
 
 # Author
 
-[Rishabh Verma](https://github.com/Rishabh-zhcet) ,B.Tech Electronics Engineering, Zakir Husain College of Engineering and Technology (ZHCET), Aligarh MUslim University(AMU).
+[Rishabh Verma](https://github.com/Rishabh-zhcet), B.Tech Electronics Engineering, Zakir Husain College of Engineering and Technology (ZHCET), Aligarh MUslim University(AMU).
 
 
