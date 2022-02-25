@@ -1,4 +1,4 @@
-# Design-implementaion-of-a-1-Bit-Full-Adder-using-28-nm-CMOS-technology
+# Design-&-implementaion-of-a-1-Bit-Full-Adder-using-28-nm-CMOS-technology
 This repository presents the design and implementation of a 1-Bit Full Adder circuit using 28 CMOS technology. Implementation and simulation are done using the Synopsis tool only. For the representation of inputs and outputs, we have taken the voltage range 0v to 1.8v. The truth table of the 1- Bit Full Adder is verified by the waveform obtained from the simulation. A full adder can be designed using two Half adders but this design is a little modified version with less no of MOSFETs. 
 
 # Table of Contents
