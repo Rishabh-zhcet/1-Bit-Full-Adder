@@ -10,6 +10,7 @@ This repository presents the design and implementation of a 1-Bit Full Adder cir
 * [Testbench & Simulation](#Testbench-&-Simulation)
 * [Output Waveform](#Output-Waveform)
 * [Generetaed Netlist](#Generetaed-Netlist)
+* [Result](#Result)
 * [Reference](#Reference)
 * [Acknowledgement](#Acknoledgement)
 * [Author](#Author)
@@ -191,6 +192,9 @@ For designing the testbench for 1-Bit Full Adder we need following:</br>
 Vdd=1.8 V
 C= 1p F
 
+**Transient Analysis**
+The analysis is done for 40u s in the steps of 1u s.
+
 # Output Waveform
 
 ![Output Waveform](https://user-images.githubusercontent.com/65393666/155509859-42d1d695-8467-4640-ab19-993fb5950ab9.png)
@@ -304,6 +308,9 @@ c5 sum gnd! c=1p
 .end
 ```
 
+# Result
+
+As a result, the Output waveform shown in figure:9 can be verified from the truth table of Full Adder shown in Table:1.
 
 # Reference
 
