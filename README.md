@@ -179,16 +179,16 @@ For designing the testbench for 1-Bit Full Adder we need following:</br>
 <b>Fig:9</b> Testbench for 1-Bit Full Adder </br>
 </p>
 
-**Parameters for A,B and C**
+**Parameters for A,B and Cin**
 
 |Signal|DC Voltage|Volatge 1|Voltage 2|Delay Time|Rise Time|Fall Time|Pulse Width|Period|
 |:-----|:--------:|:-------:|:-------:|:--------:|:-------:|:-------:|:---------:|-----:|
 |A|0 V|0 V|1.8 V|20u s|20p s|20p s|20u s|40u s|
 |B|0 V|0 V|1.8 V|10u s|20p s|20p s|10u s|20u s|
-|C|0 V|0 V|1.8 V|5u s|20p s|20p s|5u s|10u s|
+|Cin|0 V|0 V|1.8 V|5u s|20p s|20p s|5u s|10u s|
 
 <p align="center">
-<b>Table:3 Parameters for the input pulses A,B and C</b></br>
+<b>Table:3 Parameters for the input pulses A,B and Cin</b></br>
 </p>
 
 **Parameters for Vdd and Load Capacitances**
